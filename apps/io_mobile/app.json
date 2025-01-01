@@ -1,5 +1,6 @@
 {
   "expo": {
+    "scheme": "com.anonymous.io_mobile",
     "name": "IoMobile",
     "slug": "io_mobile",
     "version": "1.0.0",
@@ -31,6 +32,20 @@
       "favicon": "./assets/favicon.png",
       "bundler": "metro"
     },
-    "plugins": []
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
   }
 }
