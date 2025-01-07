@@ -11,8 +11,11 @@ const nextConfig = {
     "react-native",
     "react-native-web",
     "solito",
-    // "react-native-screens",
-    // "react-native-safe-area-context",
+    "react-native-calendars",
+    "recyclerlistview",
+    "react-native-safe-area-context",
+    "react-native-screens",
+    "react-native-swipe-gestures"
     // "expo-linking",
     // "@react-navigation/native",
     // "@react-navigation/native-stack"
