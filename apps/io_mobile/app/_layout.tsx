@@ -1,8 +1,10 @@
 import { Provider } from '@org/provider';
-import { Stack } from 'expo-router';
+import { Stack, Slot } from 'expo-router';
+import { verifyInstallation } from 'nativewind';
 
 
 export default function Root(){
+  verifyInstallation();
   return (
     <Provider>
       <Stack screenOptions={{headerShown:false}}/>

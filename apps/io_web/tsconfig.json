@@ -2,7 +2,7 @@
   "extends": "../../tsconfig.base.json",
   "compilerOptions": {
     "jsx": "preserve",
-
+    "jsxImportSource": "nativewind",
     "strict": true,
     "noEmit": true,
     "emitDeclarationOnly": false,
@@ -18,6 +18,6 @@
     "incremental": true,
     "plugins": [{ "name": "next" }]
   },
-  "include": ["**/*.ts", "**/*.tsx", "**/*.js", "**/*.jsx", "next-env.d.ts"],
+  "include": ["**/*.ts", "**/*.tsx", "**/*.js", "**/*.jsx", "next-env.d.ts","../../custom_types/global.d.ts"],
   "exclude": ["node_modules", "jest.config.ts", "**/*.spec.ts", "**/*.test.ts"]
 }

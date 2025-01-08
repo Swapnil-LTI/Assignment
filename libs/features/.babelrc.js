@@ -9,13 +9,15 @@ module.exports = function (api) {
           runtime: 'automatic',
           useBuiltIns: 'usage',
         },
+        // ["babel-preset-expo", { jsxImportSource: "nativewind" }],
+        // "nativewind/babel",
       ],
     ],
-    plugins: [],
+    plugins: [
+      // 'react-native-reanimated/plugin',
+    ],
     env: {
-      test: {
-        presets: ['babel-preset-expo'],
-      },
+    
     },
   };
 };

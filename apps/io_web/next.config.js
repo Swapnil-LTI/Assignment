@@ -15,7 +15,10 @@ const nextConfig = {
     "recyclerlistview",
     "react-native-safe-area-context",
     "react-native-screens",
-    "react-native-swipe-gestures"
+    "react-native-swipe-gestures",
+    "nativewind",
+    "react-native-css-interop",
+    "react-native-reanimated"
     // "expo-linking",
     // "@react-navigation/native",
     // "@react-navigation/native-stack"
